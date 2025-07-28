@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+   background: rgba(12, 41, 130, 0.1);
+background: linear-gradient(90deg, rgba(12, 41, 130, 1) 9%, rgba(87, 199, 193, 1) 50%, rgba(71, 55, 87, 1) 91%);;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo h1 {
+    color: aqua;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+
+nav a.active {
+  color: black;
+}
+
+nav ul a {
+      color: aqua;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+nav ul li strong {
+    color: black;
+}
+
+. búsqueda input {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.info-boxes {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    align-content: center;
+    text-align: center;
+    background-color: #EFF227;
+    width: 22%;
+    padding: 5px;
+    border-radius: 15px;
+    min-height: 200px;
+}
+
+.box h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.search-container{
+  margin-bottom:20px ;
+  text-align: center;
+}
+.search-container input[type="text"]{
+  padding: 10;
+  width: 50%;
+  border: 3px solid yellowgreen;
+  border-radius: 5px;
+  font-size: 16px;
+
+}
+.search-container button{
+  padding: 10px 15px;
+  background-color: green;
+  border:none; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.search-container button:hover{
+  background-color: seagreen;
+  transition: 0.3s;

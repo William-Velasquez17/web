@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+   background: rgba(12, 41, 130, 0.1);
+background: linear-gradient(90deg, rgba(12, 41, 130, 1) 0%, rgba(87, 199, 193, 1) 50%, rgba(71, 55, 87, 1) 100%);;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  color: aqua;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.logo .icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: aqua;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.search-bar input {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.social-card {
+  background-color: #EFF227;
+  padding: 20px;
+  border-radius: 30px;
+  width: 200px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.social-card .title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.emoji {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.likes {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.social-card img {
+  width: 100%;
+  border-radius: 15px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+
+nav a.active {
+  color: black;
+}
+
+nav ul a {
+      color: aqua;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.search-container{
+  margin-bottom:20px ;
+  text-align: center;
+}
+.search-container input[type="text"]{
+  padding: 10;
+  width: 50%;
+  border: 3px solid yellowgreen;
+  border-radius: 5px;
+  font-size: 16px;
+
+}
+.search-container button{
+  padding: 10px 15px;
+  background-color: green;
+  border:none; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.search-container button:hover{
+  background-color: seagreen;
+  transition: 0.3s;

@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: rgba(12, 41, 130, 0.1);
+background: linear-gradient(90deg, rgba(12, 41, 130, 1) 0%, rgba(87, 199, 193, 1) 50%, rgba(71, 55, 87, 1) 100%)
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: aqua;
+  font-weight: bold;
+}
+
+.logo img {
+  height: 60px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: aqua;
+  font-weight: bold;
+}
+
+nav li strong {
+  color: black;
+  font-size: 20px;
+}
+
+
+
+
+.busqueda button {
+  background: aqua;
+  border: 1px solid black;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+main {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.servicios {
+  display: flex;
+  gap: 20px;
+}
+nav a.active {
+  color: black;
+}
+
+
+.card {
+  background: #EFF227;
+  border-radius: 25px;
+  padding: 20px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+}
+
+.search-container{
+  margin-bottom:20px ;
+  text-align: center;
+}
+.search-container input[type="text"]{
+  padding: 10;
+  width: 50%;
+  border: 3px solid yellowgreen;
+  border-radius: 5px;
+  font-size: 16px;
+
+}
+.search-container button{
+  padding: 10px 15px;
+  background-color: green;
+  border:none; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.search-container button:hover{
+  background-color: seagreen;
+  transition: 0.3s;
